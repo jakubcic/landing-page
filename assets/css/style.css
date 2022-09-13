@@ -90,12 +90,12 @@ header {
 
 .contact-section {
   text-align: center;
-  width: 300px;
-  height: 250px;
+  width: 320px;
+  height: 260px;
   margin: 200px auto;
   border: 5px solid #04AA6D;
   background-color: rgb(219, 213, 206);
-  border-radius: 14px;
+  border-radius: 16px;
 }
 
 .contact-form{
