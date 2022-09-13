@@ -8,9 +8,58 @@
   </head>
 
   <body>
-    <header>
-      <h1>Landing Page</h1>
-    </header>
+    <main id="page-container">
+      <header class="background">
+        <h1>Landing Page</h1>
+        <nav class="topnav">
+          <a class="active" href="./index.html">Home</a>
+          <a href="https://github.com/jakubcic">GitHub</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <figure>
+        <h2 id="img-heading"> Meet OJ the orange cat!</h2>
+        <img id="cat-img" src="./assets/images/oj-cat.png" alt="Orange Cartoon Cat" />
+        <p id="oj-description">
+          OJ is very firendly cat. He likes to hang out under beds on on webpages. He's quiet and has a silent meow. If you listen carefully, you won't hear it. He never bites and he's well behaved.
+        </p>
+      </figure>
+
+      <!--<section class="description-container">
+        <p id="oj-description">
+          OJ is very firendly cat. He likes to hang out under beds on on webpages. He's quiet and has a silent meow. If you listen carefully, you won't hear it. He never bites and he's well behaved.
+        </p>
+      </section>-->
+
+      <section class="contact-section">
+        <h2>Questions about OJ Cat? <br> Contact us.</h2>
+        <form class="contact-form">
+          <a name="contact" ></a> 
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+          </a>
+          <label for="lname">Last Name</label><br>
+          <input type="text" id="lname" name="lname"><br>
+
+          <label for="email">Email</label><br>
+          <input type="text" id="email" name="email"><br><br>
+
+        </form>
+        <div class="button-holder">
+          <input type="submit" value="Send">
+        </div>
+      </section>
+
+
+
+      <section>
+        <footer id="footer" class="background">
+          <h2>Thank you for visiting!</h2>
+        </footer>
+      </section>
+    </main>
+
   </body>
 
 </html>
